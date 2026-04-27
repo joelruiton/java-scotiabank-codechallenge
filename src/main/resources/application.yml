@@ -1,0 +1,15 @@
+spring:
+  r2dbc:
+    url: r2dbc:h2:file:///./data/studentdb;DB_CLOSE_DELAY=-1;AUTO_SERVER=TRUE
+    username: sa
+    password:
+  sql:
+    init:
+      mode: always
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.academy: DEBUG

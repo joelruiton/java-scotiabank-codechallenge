@@ -1,0 +1,72 @@
+# =========================
+# Compiled files
+# =========================
+*.class
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Build folders
+# =========================
+target/
+build/
+out/
+
+# =========================
+# Maven
+# =========================
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# (opcional: si quieres compartir configuración entre equipo,
+# puedes versionar algunos archivos dentro de .idea, pero no es necesario al inicio)
+
+# =========================
+# VS Code (por si acaso)
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment files
+# =========================
+.env
+*.env
+
+# =========================
+# H2 Database
+# =========================
+*.mv.db
+*.trace.db
+
+# =========================
+# Spring Boot artifacts
+# =========================
+*.jar
+*.war
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.swp
